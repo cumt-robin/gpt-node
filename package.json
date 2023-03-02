@@ -25,6 +25,13 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cumt-robin/gpt-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cumt-robin/gpt-node/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "node-fetch": "2"
