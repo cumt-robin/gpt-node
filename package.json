@@ -1,0 +1,48 @@
+{
+  "name": "gpt-node",
+  "version": "1.0.1",
+  "author": "Tusi",
+  "description": "gpt3.5 api based on nodejs",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "lib",
+    "es",
+    "types"
+  ],
+  "scripts": {
+    "buildAll": "gulp buildAll",
+    "test-gpt35": "node test/test-gpt35.js",
+    "esm-test-gpt35": "node -r sucrase/register test/test-gpt35.js"
+  },
+  "keywords": [
+    "gpt3.5",
+    "chatgpt"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.21.0",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "fast-glob": "^3.2.12",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "rollup": "^3.18.0",
+    "rollup-plugin-dts": "^5.2.0",
+    "sucrase": "^3.29.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  }
+}

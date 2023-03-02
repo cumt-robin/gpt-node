@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "strict": false,
+        "jsx": "preserve",
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "strictNullChecks": true,
+        "lib": ["esnext", "dom.iterable"],
+    },
+    "include": ["**/*.ts", "**/tests/**/*.ts"],
+    "exclude": ["node_modules"]
+}
