@@ -7,7 +7,7 @@ yarn add gpt-node
 # Usage
 
 ```
-const { ChatGPT35 } from "gpt-node"
+const { ChatGPT35 } = require("gpt-node")
 
 const token = 'your openai YOUR_API_KEY'
 
